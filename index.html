@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>西安石油大学新校区导游信息查询系统 | 经济管理学院-经管2013级</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<header>
+		<div id="header_left">
+			<p>数据结构与算法课程设计</p>
+			<p>西安石油大学新校区导游信息查询系统</p>
+		</div>
+		<div id="header_right">
+			<ul>
+				<li><a href="about.html">关 于</a></li>				
+				<li><a href="c.html">c语言版</a></li>
+				<li><a href="js.html">javascript版</a></li>
+				<li style="color:white">首 页</li>
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+		<div class="content">
+			<div id="cont_left">
+				<canvas id="draw_area" width="770" height="500">
+					您的浏览器不支持canvas标签,请用较新的浏览器！
+				</canvas>
+			</div>
+			<div id="cont_right">
+				<div id="cont_right_top">
+					<div id="nodeinfo">
+						顶点数量：<span id="nodenum">0</span> 边数量：<span id="pathnum">0</span>
+					</div>	
+					<div id="operinfo">
+						<p>当前操作：<span id="curoper">设置路线</span></p>
+						<p><span id="startnode"></span></p>
+						<p><span id="endnode"></span></p>
+					</div> 
+					<div id="queryrlt">
+						<p>最短距离：<span id="minlength">0</span></p>
+						<p>最短路径：<span id="minpaths"></span></p>
+					</div>			
+				</div>
+				<div id="cont_right_bottom">
+					<form action="javascript:;">
+						<p id="drawnodeinfo" style="margin-bottom:0px;">请输入 景点1 - 景点2 路径长度：</p>
+						<p style="margin-top:5px;">
+							<input style="width:200px;" type="text" id="pathlength">
+							<button id="subbtn">确定</button>
+						</p>					
+					</form>
+				</div>			
+			</div>
+			<div id="menu">
+				<button class="btn_menu" id="addnode">添加景点</button>
+				<button class="btn_menu" id="resetnode">重置景点</button>
+				<button class="btn_menu" id="setlines">设置路线</button>
+				<button class="btn_menu" id="selnode">选择景点</button>
+				<button class="btn_menu" id="querypaths">最短路径查询</button>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer_cont">			
+			<div class="f_content">
+				<p>课程设计</p>
+				<p>课程名称：数据结构与算法</p>
+				<p>设计题目：西安石油大学新校区导游信息查询服务</p>
+				<p>指导老师：李 俊 亭</p>
+				<p>完成时间：2015 - 5 - 1</p>
+			</div>
+			<div class="f_content" style="text-align:right">
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+				<p>Copyright &copy;2015 经管1301班 All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/index.js"></script>
+</body>
+</html>

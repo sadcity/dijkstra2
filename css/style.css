@@ -1,0 +1,123 @@
+
+.container{
+	width: 1202px;
+	margin: 20px auto;
+	margin-top: -20px;
+}
+
+.content{
+	float: left;
+	border: 1px solid rgb(230, 230, 230);
+	box-shadow: 8px 8px 8px gray;
+}
+
+.content #cont_left{
+	float: left;
+	width: 770px;
+}
+
+canvas{
+	float: left;
+	background: white;
+}
+
+.content #cont_right{
+	float: left;
+	width: 429px;
+	height: 500px;
+	background: rgb(250, 251, 251);
+	border-left: 1px solid rgb(230, 230, 230);
+}
+
+.content #cont_right #cont_right_top{
+	width: 100%;
+	float: left;
+	height: 430px;
+}
+
+.content #nodeinfo{
+	height: 50px;
+	width: 409px;
+	background: rgb(246, 246, 246);
+	border-bottom: 1px solid rgb(230, 230, 230);
+	line-height: 50px;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.content #operinfo{
+	font-size: 15px;
+	padding-left: 20px;
+	width: 409px;
+	/*height: 90px;*/
+	border-bottom: 1px solid rgb(230, 230, 230);
+	display: none;
+}
+
+.content #queryrlt{
+	padding-left: 20px;
+	display: none;
+}
+
+.content #queryrlt #minlength{
+	color:blue;
+}
+
+.content #queryrlt #minpaths{
+	color:blue;
+}
+
+.content #curoper{
+	color:red;
+}
+
+.content #nodeinfo #nodenum{
+	color:blue;
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+.content #nodeinfo #pathnum{
+	color: blue;
+	font-weight: bold;
+}
+
+.content #cont_right #cont_right_bottom{
+	width: 409px;
+	float: left;
+	height: 70px;
+	background: #eee;
+	font-size: 14px;
+	padding-left: 20px;
+	display: none;
+}
+
+.content #menu{
+	float: left;
+	width: 1180px;
+	height: 60px;
+	background-color: rgb(246, 246, 246);
+	border-top: 1px solid rgb(230, 230, 230);
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+.content .btn_menu{
+	padding: 6px 12px;
+	height: 28px;
+	background-color: rgb(243, 156, 18);
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	margin-right: 10px;
+}
+
+.content #querypaths{
+	margin-left: 390px;
+}
+
